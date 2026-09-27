@@ -1,0 +1,294 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Hi chatbot",
+        "Hello chatbot",
+        "Hey there",
+        "Can you help me",
+        "I need help"
+      ],
+      "responses": [
+        "Hello! 👋 I am the Student AI Chatbot. How can I help you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you",
+        "Thanks",
+        "Thank you",
+        "Thank you so much",
+        "Bye chatbot",
+        "See you later",
+        "That's all",
+        "Have a nice day"
+      ],
+      "responses": [
+        "You're welcome! 😊 Have a great day!"
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "How can I apply for admission?",
+        "What is the admission process?",
+        "How do I get admission?",
+        "Tell me about admissions",
+        "When does admission start?",
+        "How can I join the college?",
+        "What is the procedure to join?",
+        "How do I apply to the college?",
+        "What are the steps for admission?",
+        "Can I apply for admission online?",
+        "What is the college admission procedure?",
+        "How do I take admission?"
+      ],
+      "responses": [
+        "You can apply for admission by completing the application process and submitting the required documents. Please check the college's official admission information for the latest procedure."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses are available?",
+        "Which courses do you offer?",
+        "Tell me about the courses",
+        "What programs are available?",
+        "What can I study?",
+        "Which programs are offered?",
+        "What degrees are available?",
+        "What branches are available?",
+        "Which courses can I choose?",
+        "Tell me about available programs",
+        "What can I study in this college?",
+        "Which academic programs are offered?"
+      ],
+      "responses": [
+        "The college offers various undergraduate and postgraduate programs. Please check the official college course details for the currently available programs."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "What are the fees?",
+        "How much is the college fee?",
+        "Tell me about fees",
+        "What is the tuition fee?",
+        "How much do I need to pay?",
+        "What is the course fee?",
+        "How much does college cost?",
+        "What are the tuition charges?",
+        "How much is the fee for the course?",
+        "Tell me the fee structure",
+        "What is the annual college fee?",
+        "How much should I pay for admission?"
+      ],
+      "responses": [
+        "The fee structure depends on the course. Please check the official college fee details for the latest and accurate information."
+      ]
+    },
+    {
+      "tag": "internship",
+      "patterns": [
+        "Are internships available?",
+        "How can I get an internship?",
+        "Tell me about internships",
+        "Does the college provide internships?",
+        "Where can I find internships?",
+        "Can students do internships?",
+        "Are internship opportunities available?",
+        "How do students get internships?",
+        "Does the college help with internships?",
+        "Can I get an internship through college?",
+        "What internship opportunities are available?",
+        "How can I apply for an internship?"
+      ],
+      "responses": [
+        "Internship opportunities help students gain practical experience. Check the college placement or training department for available internship opportunities."
+      ]
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "How are placements?",
+        "Tell me about placements",
+        "Which companies visit the college?",
+        "How can I get a placement?",
+        "Is placement available?",
+        "Does the college provide placements?",
+        "What companies recruit students?",
+        "Which companies come for recruitment?",
+        "How does campus placement work?",
+        "What is the placement process?",
+        "Can students get jobs through campus placement?",
+        "Does the college have a placement department?"
+      ],
+      "responses": [
+        "The placement department helps students prepare for recruitment through training, aptitude tests, interviews, and company recruitment drives."
+      ]
+    },
+    {
+      "tag": "eligibility",
+      "patterns": [
+        "What is the eligibility criteria?",
+        "Who can apply?",
+        "What are the admission requirements?",
+        "Am I eligible?",
+        "Tell me the eligibility requirements",
+        "What qualifications are required?",
+        "Who is eligible for admission?",
+        "What marks are required?",
+        "What is the eligibility for this course?",
+        "What are the requirements to join?",
+        "Can I apply with my qualification?",
+        "What qualification do I need?"
+      ],
+      "responses": [
+        "Eligibility requirements depend on the course. Please check the specific course admission requirements for accurate information."
+      ]
+    },
+    {
+      "tag": "documents",
+      "patterns": [
+        "What documents are required?",
+        "Which documents should I submit?",
+        "Tell me about required documents",
+        "What certificates are needed?",
+        "What should I bring for admission?",
+        "Which certificates are required?",
+        "What documents do I need for admission?",
+        "What should I submit during admission?",
+        "Which documents are needed to join?",
+        "What paperwork is required?",
+        "Do I need academic certificates?",
+        "What documents should students carry?"
+      ],
+      "responses": [
+        "Common admission documents include academic certificates, identification proof, photographs, and other documents specified by the college."
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "Are scholarships available?",
+        "How can I get a scholarship?",
+        "Tell me about scholarships",
+        "Does the college provide scholarships?",
+        "Who can apply for scholarships?",
+        "Can students get scholarships?",
+        "What scholarships are available?",
+        "How do I apply for a scholarship?",
+        "What are the scholarship requirements?",
+        "Is financial assistance available?",
+        "Who is eligible for scholarships?",
+        "Does the college offer financial support?"
+      ],
+      "responses": [
+        "Scholarship availability depends on eligibility and applicable schemes. Please check the college scholarship information for current details."
+      ]
+    },
+    {
+      "tag": "programming",
+      "patterns": [
+        "What is Python?",
+        "What is Java?",
+        "What is programming?",
+        "What is a programming language?",
+        "Explain Python",
+        "Explain Java",
+        "What is coding?",
+        "How can I learn Python?",
+        "How can I learn programming?",
+        "What is the use of Python?",
+        "What is the use of Java?",
+        "Which programming language should I learn?",
+        "How do I learn coding?",
+        "What is C programming?"
+      ],
+      "responses": [
+        "Python, Java, C, and other programming languages are used to build software and solve computational problems. I can help you understand programming concepts and create a learning plan."
+      ]
+    },
+    {
+      "tag": "academic",
+      "patterns": [
+        "What is artificial intelligence?",
+        "What is machine learning?",
+        "What is data science?",
+        "What is NLP?",
+        "Explain artificial intelligence",
+        "Explain machine learning",
+        "What is deep learning?",
+        "What is computer science?",
+        "What is AI and ML?",
+        "Explain data science",
+        "What is natural language processing?",
+        "Can you explain a technical topic?",
+        "What is neural network?",
+        "What is deep learning?"
+      ],
+      "responses": [
+        "I can help explain academic and technical topics in simple language. Ask me about AI, machine learning, programming, databases, computer science, NLP, or other student-related subjects."
+      ]
+    },
+    {
+      "tag": "career",
+      "patterns": [
+        "How can I get a software job?",
+        "How can I get a job?",
+        "What skills should I learn?",
+        "How do I prepare for placements?",
+        "How can I improve my career?",
+        "What should I learn for IT jobs?",
+        "How can I become a software developer?",
+        "What skills are required for software jobs?",
+        "How do I prepare for interviews?",
+        "How can I build my career?"
+      ],
+      "responses": [
+        "For an IT career, focus on programming fundamentals, problem solving, projects, Git and GitHub, communication skills, internships, and interview preparation. Choose skills that match the type of role you want."
+      ]
+    },
+    {
+      "tag": "resume",
+      "patterns": [
+        "How do I make a resume?",
+        "How can I improve my resume?",
+        "What should I add to my resume?",
+        "How do I create a student resume?",
+        "What skills should I put on my resume?",
+        "How can I make my resume better?",
+        "What projects should I add to my resume?",
+        "How do I create a CV?"
+      ],
+      "responses": [
+        "A student resume should usually include education, technical skills, projects, internships, certifications, achievements, and contact information. Keep it clear, concise, and relevant to the job."
+      ]
+    },
+    {
+      "tag": "interview",
+      "patterns": [
+        "How should I prepare for an interview?",
+        "Give me interview tips",
+        "How do I prepare for a technical interview?",
+        "What questions are asked in interviews?",
+        "How can I crack an interview?",
+        "How should students prepare for interviews?",
+        "Tell me interview preparation tips"
+      ],
+      "responses": [
+        "Prepare your programming fundamentals, projects, resume, communication skills, aptitude, and common technical questions. Practice explaining your projects clearly."
+      ]
+    }
+  ]
+}
